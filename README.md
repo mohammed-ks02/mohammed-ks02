@@ -1,60 +1,117 @@
 <h1 align="center">Hi 👋, I'm Mohammed Kassi</h1>
-<h3 align="center">Full Stack & Embedded Systems Developer from Morocco 🇲🇦</h3>
+<h3 align="center">Full Stack Developer • Embedded Systems Enthusiast • Network Infrastructure Technician 🇲🇦</h3>
 
 <p align="center">
-  <a href="mailto:Mohamedkassi167@gmail.com">📧 Email</a> •
-  <a href="https://github.com/mohammed-ks02">💻 GitHub</a> •
-  <a href="https://linkedin.com/in/mohammed-kassi">🔗 LinkedIn</a>
+  <a href="mailto:Mohamedkassi167@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+  </a>
+  
+  <a href="https://github.com/mohammed-ks02">
+    <img src="https://skillicons.dev/icons?i=github" height="45"/>
+  </a>
+
+  <a href="https://linkedin.com/in/mohammed-kassi">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+  </a>
+</p>
+
+<p align="center">
+  📧 Mohamedkassi167@gmail.com
 </p>
 
 ---
 
 # 💫 About Me
 
-💻 Passionate web developer focused on building modern, responsive, and scalable applications.
+Passionate and versatile developer focused on building scalable web applications, modern interfaces, backend systems, and embedded solutions.
 
-🚀 I work with both frontend and backend technologies and enjoy creating interactive user experiences and efficient systems.
+I enjoy transforming ideas into real-world projects using both frontend and backend technologies while continuously learning new tools and architectures.
 
-🔧 I also have experience with:
-- Embedded Systems (Arduino, Raspberry Pi)
-- Mobile Development with Flutter
-- Network & Infrastructure Deployment
-- REST APIs & Microservices
-- Database Design & Management
-
-📚 Currently improving my skills in:
-- Full Stack Development
-- Software Architecture
-- DevOps & Docker
-- System Design
+I also have strong interest in:
+- 🌐 Full Stack Development
+- ⚙️ Backend APIs & Microservices
+- 📱 Mobile Development
+- 🔌 Embedded Systems & IoT
+- 🖧 Network Infrastructure
+- 🐳 DevOps & Docker
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Technologies & Tools
 
-### Frontend
+### 👨‍💻 Programming Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=js,python,php,cpp" />
+</p>
+
+### 🎨 Frontend Development
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap" />
 </p>
 
-### Backend
+### ⚙️ Backend Development
 <p>
-  <img src="https://skillicons.dev/icons?i=php,python,nodejs,laravel,flask" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,nodejs,flask" />
 </p>
 
-### Database & Tools
+### 🗄️ Databases & Cloud
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase,docker,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,firebase" />
 </p>
 
-### Embedded & Mobile
+### 🐳 DevOps & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,vscode,linux" />
+</p>
+
+### 📱 Mobile & Embedded Systems
 <p>
   <img src="https://skillicons.dev/icons?i=flutter,arduino,raspberrypi" />
 </p>
 
+### 🔧 Other Technologies
+- RabbitMQ
+- SQLAlchemy
+- REST APIs
+- jQuery
+- AJAX
+- WordPress
+- Microservices Architecture
+- Bootstrap
+- RESTful Services
+- Network Infrastructure
+- WiFi Deployment
+- Cisco Switch Configuration
+- RJ45 Cabling
+
 ---
 
-# 🚀 Projects & Experience
+# 🏆 AFCON 2025 Experience
+
+## 🏟️ Network & Infrastructure Deployment — Africa Cup of Nations 2025
+
+Worked as a Network & Infrastructure Technician with **AXELI** during the preparation and deployment phase for **AFCON 2025 in Morocco**.
+
+### Responsibilities:
+- Deployed large-scale network infrastructure across multiple stadiums in Rabat
+- Installed and configured switches, WiFi access points, and RJ45 cabling
+- Set up technical workstations and connectivity zones for media teams and photographers
+- Performed real-time network diagnostics and troubleshooting
+- Tested and optimized internet connectivity under high-pressure event conditions
+- Assisted in multi-site infrastructure management for accreditation and conference areas
+
+### Experience Gained:
+This experience strengthened my skills in:
+- Enterprise networking
+- Infrastructure deployment
+- Real-time technical support
+- Problem solving under pressure
+- Team collaboration in large-scale events
+- Hardware & connectivity troubleshooting
+
+---
+
+# 🚀 Featured Projects
 
 ## 🏛️ Administrative Management Microservices Platform
 Developed a microservices-based administrative management system for the Prefecture of Skhirate-Témara.
@@ -62,72 +119,59 @@ Developed a microservices-based administrative management system for the Prefect
 ### Features:
 - User authentication & authorization
 - Administrative workflow management
-- REST API architecture
-- Real-time form validation
+- REST APIs
+- Real-time validation
 - Centralized audit system
 - French localization support
 
-### Tech Used:
-`Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `RabbitMQ` `HTML/CSS` `JavaScript`
+### Technologies:
+`Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `RabbitMQ` `HTML` `CSS` `JavaScript`
 
 ---
 
 ## 📋 Collaborative Task Management System
-Built a collaborative task management platform with CRUD functionality and RESTful APIs.
+Developed a collaborative platform for task and project management.
 
 ### Features:
-- Project & task management
-- User management system
+- CRUD operations
+- RESTful APIs
 - Responsive dashboard
-- REST API integration
-- Database management
+- User & project management
 
-### Tech Used:
+### Technologies:
 `PHP` `MySQL` `Bootstrap` `JavaScript` `jQuery`
 
 ---
 
 ## 🏫 School Management Website
-Developed a WordPress-based school management platform with administrative features.
+Created a school management platform using WordPress with integrated administration features.
 
 ### Features:
 - Student & teacher management
-- School administration dashboard
+- Administrative dashboard
 - Plugin integration
 - Functional testing & debugging
 
-### Tech Used:
+### Technologies:
 `WordPress` `PHP` `MySQL`
-
----
-
-## 🌐 Other Projects
-- Responsive web applications
-- Frontend UI/UX interfaces
-- Database-connected systems
-- Automation scripts with Python
-- Embedded systems using Arduino & Raspberry Pi
-- Mobile applications with Flutter
 
 ---
 
 # 💼 Professional Experience
 
 ### 🔹 AXELI — Network & Infrastructure Technician
-- Deployed network infrastructure for CAN 2025 stadiums in Morocco
-- Installed switches, WiFi access points & RJ45 cabling
-- Managed multi-site deployments under real-time event pressure
-- Technical support & network diagnostics
+- AFCON 2025 infrastructure deployment
+- Network setup & diagnostics
+- Multi-site technical operations
 
 ### 🔹 Préfecture de Skhirate-Témara — Web Developer
-- Built microservices architecture for administrative modernization
-- Developed REST APIs and responsive interfaces
-- Improved processing efficiency and data security
+- Developed microservices architecture
+- Built REST APIs & responsive interfaces
+- Improved administrative workflows
 
 ### 🔹 SIGMA IT — Web Developer
-- Developed collaborative task management platform
-- Created APIs and responsive interfaces
-- Managed backend/database architecture
+- Built collaborative management system
+- Developed APIs and backend architecture
 
 ---
 
@@ -162,6 +206,10 @@ Developed a WordPress-based school management platform with administrative featu
 # 🤝 Connect With Me
 
 <p align="center">
+  <a href="mailto:Mohamedkassi167@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="50"/>
+  </a>
+
   <a href="https://github.com/mohammed-ks02">
     <img src="https://skillicons.dev/icons?i=github" height="50"/>
   </a>
