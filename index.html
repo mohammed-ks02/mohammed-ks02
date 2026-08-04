@@ -12,19 +12,15 @@
   }
   *{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth;}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg);color:var(--text);line-height:1.65;scroll-behavior:smooth;}
+    background:var(--bg);color:var(--text);line-height:1.65;}
   a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
   .wrap{max-width:980px;margin:0 auto;padding:0 22px;}
-
-  /* NAV */
   nav{position:sticky;top:0;z-index:20;background:rgba(13,17,23,.85);backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);}
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;}
   nav .brand{font-weight:700;letter-spacing:.5px;}
   nav .links{display:flex;gap:18px;font-size:.9rem;}
   nav .links a{color:var(--muted);} nav .links a:hover{color:var(--text);}
-
-  /* HERO */
   header{padding:74px 0 54px;text-align:center;
     background:radial-gradient(circle at 50% -10%,#1f2d44 0%,var(--bg) 65%);}
   .avatar{width:104px;height:104px;border-radius:50%;margin:0 auto 18px;
@@ -40,21 +36,16 @@
   .cta{margin-top:22px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
   .btn{background:var(--accent);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600;border:none;cursor:pointer;}
   .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text);}
-
   section{padding:46px 0;border-bottom:1px solid var(--line);}
   h2{font-size:1.5rem;margin-bottom:22px;display:flex;align-items:center;gap:10px;}
   h2::before{content:"";width:4px;height:22px;background:linear-gradient(var(--accent),var(--accent3));border-radius:3px;}
   p{color:#c9d1d9;}
-
-  /* SKILL GROUPS */
   .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;}
   .sgroup{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px 18px;}
   .sgroup h3{font-size:.95rem;color:var(--accent2);margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px;}
   .badges{display:flex;flex-wrap:wrap;gap:8px;}
   .badge{background:var(--bg3);border:1px solid var(--line);border-radius:20px;padding:5px 13px;font-size:.84rem;}
   .badge.fe{border-color:#6e40c9;color:#d2b3ff;} .badge.ds{border-color:#db61a2;color:#f5b8d8;}
-
-  /* TIMELINE (experience) */
   .timeline{position:relative;padding-left:26px;}
   .timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line);}
   .job{position:relative;margin-bottom:26px;}
@@ -63,22 +54,15 @@
   .job .top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;}
   .job h3{font-size:1.08rem;} .job .co{color:var(--accent);} .job .date{color:var(--muted);font-size:.85rem;white-space:nowrap;}
   .job ul{margin:8px 0 0 18px;color:#c9d1d9;font-size:.92rem;} .job li{margin:3px 0;}
-
-  /* EDU */
   .edu{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:14px 0;border-bottom:1px dashed var(--line);}
   .edu:last-child{border:none;} .edu h3{font-size:1.02rem;} .edu .inst{color:var(--muted);font-size:.9rem;}
   .edu .yr{color:var(--accent2);font-weight:600;white-space:nowrap;}
-
-  /* PROJECTS */
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px;}
   .card{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:18px;transition:.2s;}
   .card:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.3);}
   .card h3{font-size:1.05rem;margin-bottom:7px;} .card p{font-size:.88rem;color:var(--muted);}
-
-  /* CONTACT */
   .contact{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:8px;}
   .contact a{background:var(--bg2);border:1px solid var(--line);padding:11px 18px;border-radius:9px;font-weight:500;}
-
   footer{text-align:center;padding:30px 0;color:var(--muted);font-size:.85rem;}
   @media(max-width:560px){header h1{font-size:2.1rem;} nav .links{display:none;}}
   .kw{display:none;}
@@ -97,7 +81,7 @@
 <header><div class="wrap">
   <div class="avatar">MK</div>
   <h1>Mohammed <span class="grad">Kassi</span></h1>
-  <div class="tag">Full-Stack Developer · Physical AI &amp; AIoT Specialist</div>
+  <div class="tag">Full-Stack Developer · Physical AI & AIoT Specialist</div>
   <div class="meta">Skhirat, Rabat-Salé-Kénitra, Morocco · 📞 +212 693-529351</div>
   <div class="meta"><a href="mailto:mohamedkassi167@gmail.com">mohamedkassi167@gmail.com</a></div>
   <div class="cta">
@@ -109,7 +93,7 @@
 
 <section id="about"><div class="wrap">
   <h2>About</h2>
-  <p>I build intelligent systems that bridge <strong>software, embedded hardware, and the real world</strong>. I work across full-stack web engineering (Python/Flask, PHP/Laravel, React) and physical computing (ESP32, Arduino, Raspberry Pi, VHDL), with a strong front-end &amp; UI/UX design sensibility.</p>
+  <p>I build intelligent systems that bridge <strong>software, embedded hardware, and the real world</strong>. I work across full-stack web engineering (Python/Flask, PHP/Laravel, React) and physical computing (ESP32, Arduino, Raspberry Pi, VHDL), with a strong front-end & UI/UX design sensibility.</p>
   <p style="margin-top:10px">Currently specializing in <strong>Physical AI</strong> through the national <strong>GEN AIoT Morocco</strong> program (Ministry of Digital Transition · ABA Technology), applying Edge AI and Cloud/Edge architectures to real industrial projects. I cut administrative processing time by <strong>60%</strong> via a microservices platform and deployed live network infrastructure for CAN 2025 across four stadiums.</p>
 </div></section>
 
@@ -117,29 +101,30 @@
   <h2>Experience</h2>
   <div class="timeline">
     <div class="job">
-      <div class="top"><h3>Physical AI Trainee — <span class="co">AXELI (GEN AIoT Morocco)</span></h3><span class="date">2025 – Present</span></div>
+      <div class="top"><h3>Physical AI Trainee — <span class="co">ABA TECH / IDS Salé (GEN AIoT Morocco)</span></h3><span class="date">Feb 2026 – Present</span></div>
       <ul>
         <li>Specializing in <strong>Physical AI</strong> through the national GEN AIoT Morocco program (Ministry of Digital Transition · ABA Technology).</li>
         <li>8-month program: 4 months training + 4 months in-company project; 70% practical on real industrial projects.</li>
         <li>Building expertise in Physical AI, AIoT, Edge AI, Cloud/Edge and sovereign AI architectures.</li>
+        <li>Hosted at IDS Salé (Digital Solidarity Incubator), cohort of 50 talents with makerspace access.</li>
       </ul>
     </div>
     <div class="job">
-      <div class="top"><h3>Technicien Réseau &amp; Infrastructure — <span class="co">Préfecture de Skhirat-Témara</span></h3><span class="date">Dec 2025 – Jan 2026</span></div>
+      <div class="top"><h3>Technicien Réseau & Infrastructure — <span class="co">AXELI (CAN 2025 Deployment)</span></h3><span class="date">Dec 2025 – Jan 2026</span></div>
       <ul>
-        <li>Deployed network infrastructure for CAN 2025 (Africa Cup of Nations) across 4 Rabat stadiums, conference &amp; accreditation rooms.</li>
-        <li>Fabricated/installed RJ45 cabling, configured switches, deployed WiFi access points on site.</li>
-        <li>Tested connectivity, measured throughput, diagnosed &amp; resolved hardware incidents in real time.</li>
-        <li>Provided live technical support to journalism &amp; photography teams under event pressure.</li>
+        <li>Deployed network infrastructure for CAN 2025 (Africa Cup of Nations) across multiple stadiums in Rabat.</li>
+        <li>Daily execution: RJ45 cable prep (2m–5m), switch installation, WiFi AP deployment, cable tray (goulottes) routing.</li>
+        <li>Multi-site: 4 stadiums, conference & accreditation rooms; ~28 tables, 6 switches, 300+ Mbps verified.</li>
+        <li>Real-time support for journalists/photographers; incident resolution under event pressure.</li>
       </ul>
     </div>
     <div class="job">
       <div class="top"><h3>Développeur Web (Microservices) — <span class="co">Préfecture de Skhirat-Témara</span></h3><span class="date">Jun 2025 – Oct 2025</span></div>
       <ul>
-        <li>Built a microservices architecture for administrative management: citizen services, authentication, administrative division, centralized audit.</li>
+        <li>Built a microservices architecture for administrative management: citizen services, authentication, division, audit.</li>
         <li>Reactive web UIs with real-time validation, REST APIs, automated tests, French localization.</li>
         <li>Stack: Python (Flask), PostgreSQL, SQLAlchemy, Docker, HTML/CSS/JS, RabbitMQ.</li>
-        <li>Result: <strong>−60% processing time</strong>; improved data security &amp; transparency.</li>
+        <li>Result: <strong>−60% processing time</strong>; improved data security & transparency.</li>
       </ul>
     </div>
     <div class="job">
@@ -151,16 +136,18 @@
       </ul>
     </div>
     <div class="job">
-      <div class="top"><h3>WordPress Developer — <span class="co">Fondation Ababou, Rabat</span></h3><span class="date">Oct 2023 – Jan 2024</span></div>
+      <div class="top"><h3>Formation d'insertion professionnelle — <span class="co">Fondation Ababou, Rabat</span></h3><span class="date">Oct 2023 – Jan 2024</span></div>
       <ul>
-        <li>Built a WordPress site with the "School Management" plugin for a school.</li>
-        <li>Delivered a complete school management system (admins, teachers, students, parents).</li>
-        <li>Ran functional &amp; integration testing to improve product quality.</li>
+        <li>Professional insertion training — web development focus.</li>
       </ul>
     </div>
     <div class="job">
-      <div class="top"><h3>Développeur Web — <span class="co">Moussif Serghini Idrissi, Salé</span></h3><span class="date">Apr 2023 – Jun 2023</span></div>
-      <ul><li>Web development internship — front-end &amp; back-end implementation for client projects.</li></ul>
+      <div class="top"><h3>WordPress Developer — <span class="co">Moussif Serghini Idrissi, Salé</span></h3><span class="date">Apr 2023 – Jun 2023</span></div>
+      <ul>
+        <li>Built a WordPress site with the "School Management" plugin for a school.</li>
+        <li>Complete school management system (admins, teachers, students, parents).</li>
+        <li>Functional & integration testing to improve product quality.</li>
+      </ul>
     </div>
   </div>
 </div></section>
@@ -170,7 +157,7 @@
   <div class="edu"><div><h3>Licence Professionnelle — IoT et Systèmes Intelligents</h3><div class="inst">ISMAGI</div></div><div class="yr">2024 – 2025</div></div>
   <div class="edu"><div><h3>Bac+2 Technicien — Développement Digital</h3><div class="inst">Specialized Institute of Applied Technology (NTIC)</div></div><div class="yr">2021 – 2023</div></div>
   <div class="edu"><div><h3>Baccalauréat — Sciences Physiques et Chimiques</h3><div class="inst">High School</div></div><div class="yr">2019 – 2020</div></div>
-  <div class="edu"><div><h3>GEN AIoT Morocco — Physical AI Specialization</h3><div class="inst">Ministry of Digital Transition · ABA Technology (in progress)</div></div><div class="yr">2025 – 2026</div></div>
+  <div class="edu"><div><h3>GEN AIoT Morocco — Physical AI Specialization</h3><div class="inst">Ministry of Digital Transition · ABA Technology (in progress)</div></div><div class="yr">2026 – Present</div></div>
 </div></section>
 
 <section id="skills"><div class="wrap">
@@ -180,24 +167,24 @@
       <span class="badge">Python</span><span class="badge">PHP</span><span class="badge">JavaScript</span>
       <span class="badge">C++</span><span class="badge">VHDL</span><span class="badge">SQL</span><span class="badge">HTML5</span><span class="badge">CSS3</span>
     </div></div>
-    <div class="sgroup"><h3>Back-End &amp; Frameworks</h3><div class="badges">
+    <div class="sgroup"><h3>Back-End & Frameworks</h3><div class="badges">
       <span class="badge">Flask</span><span class="badge">Laravel</span><span class="badge">React</span><span class="badge">Node.js</span>
       <span class="badge">REST API</span><span class="badge">Microservices</span><span class="badge">Astro</span><span class="badge">Blade</span>
     </div></div>
-    <div class="sgroup"><h3>Front-End &amp; Design</h3><div class="badges">
+    <div class="sgroup"><h3>Front-End & Design</h3><div class="badges">
       <span class="badge fe">React</span><span class="badge fe">Tailwind CSS</span><span class="badge fe">Bootstrap</span>
       <span class="badge fe">Sass/SCSS</span><span class="badge fe">jQuery</span><span class="badge fe">Responsive Design</span>
       <span class="badge ds">UI/UX Design</span><span class="badge ds">Figma</span><span class="badge ds">Adobe XD</span>
       <span class="badge ds">Design Systems</span><span class="badge ds">Accessibility (a11y)</span><span class="badge ds">Wireframing</span>
     </div></div>
-    <div class="sgroup"><h3>Embedded &amp; IoT</h3><div class="badges">
+    <div class="sgroup"><h3>Embedded & IoT</h3><div class="badges">
       <span class="badge">ESP32</span><span class="badge">Arduino</span><span class="badge">Raspberry Pi</span>
       <span class="badge">Physical AI</span><span class="badge">AIoT</span><span class="badge">IoT</span><span class="badge">Edge AI</span>
     </div></div>
     <div class="sgroup"><h3>Databases</h3><div class="badges">
       <span class="badge">PostgreSQL</span><span class="badge">MySQL</span><span class="badge">MongoDB</span><span class="badge">Firebase</span>
     </div></div>
-    <div class="sgroup"><h3>DevOps &amp; Tools</h3><div class="badges">
+    <div class="sgroup"><h3>DevOps & Tools</h3><div class="badges">
       <span class="badge">Docker</span><span class="badge">Git</span><span class="badge">RabbitMQ</span><span class="badge">Cloud</span>
       <span class="badge">Flutter</span><span class="badge">Excel</span><span class="badge">PowerPoint</span><span class="badge">Word</span>
     </div></div>
